@@ -1,0 +1,3 @@
+	SELECT SNAME, CITY
+	FROM SALESPEOPLE
+	WHERE CITY IN ('Barcelona','London');

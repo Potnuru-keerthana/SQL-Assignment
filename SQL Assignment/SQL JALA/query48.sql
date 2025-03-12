@@ -1,0 +1,5 @@
+	SELECT SNUM, CNUM 
+	FROM ORDERS
+	WHERE CNUM IN (SELECT CNUM 
+	  FROM CUST
+	                          WHERE CITY = 'LONDON');

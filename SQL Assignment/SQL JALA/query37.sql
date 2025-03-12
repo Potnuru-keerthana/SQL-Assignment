@@ -1,0 +1,5 @@
+	SELECT A.CNAME, B.CNAME,A.RATING
+	FROM CUST A, CUST B
+	WHERE A.RATING = B.RATING AND
+	          A.CNUM != B.CNUM AND
+	  	                A.CNUM < B.CNUM;

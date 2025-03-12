@@ -1,0 +1,4 @@
+SELECT O.ONUM, O.SNUM AS Salesperson_Credited, C.SNUM AS Salesperson_Assigned, O.AMT
+FROM ORDERS O
+JOIN CUST C ON O.CNUM = C.CNUM
+WHERE O.SNUM != C.SNUM;

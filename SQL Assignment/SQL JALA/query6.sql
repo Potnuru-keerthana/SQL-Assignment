@@ -1,0 +1,4 @@
+	SELECT CNAME FROM CUST WHERE RATING > 200;
+    
+    
+   

@@ -1,0 +1,5 @@
+	SELECT C.CNAME, A.ONUM, B.ONUM
+	FROM ORDERS A, ORDERS B, CUST C
+	WHERE A.CNUM = B.CNUM AND 
+	          A.ONUM > B.ONUM AND
+	                      C.CNUM = A.CNUM;

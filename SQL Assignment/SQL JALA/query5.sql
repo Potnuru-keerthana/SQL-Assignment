@@ -1,0 +1,4 @@
+	SELECT ONUM,AMT,ODATE FROM ORDERS;
+    
+    
+    
